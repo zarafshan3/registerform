@@ -1,0 +1,41 @@
+body{
+    background: url("https://images7.alphacoders.com/134/1342751.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+.error-message {
+    color: #fff;
+    font-size: 0.875em;
+    margin-top: 0.25em;
+}
+
+h1{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.reg{
+    border-radius: 10px;
+    background: #7c09804f;
+    min-height: 600px;
+    padding: 20px;
+    box-shadow: 0px 0px 40px 10px #db76e9;
+    margin-top: 40px;
+}
+
+.bttn{
+    background: #DA6EE3 !important; 
+    font-size: 20px;
+    color: #fff;
+}
+
+#green{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
