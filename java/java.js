@@ -38,7 +38,7 @@ function start(event) {
         document.getElementById('ageError').innerHTML = "Age is required.";
         isValid = false;
     }else if (isNaN(age) || age <= 0) {
-       alert('Please enter a valid number for age.')
+        document.getElementById('ageError').innerHTML = "Please enter a valid number for age."
         isValid = false;
     }
 
@@ -53,15 +53,6 @@ function start(event) {
 
     if (isValid) {
         document.getElementById('green').innerHTML = '"Welcome!"'
-    }
-
-    if (isValid) {
-        console.log("Name:", name);
-        console.log("Surname:", surname);
-        console.log("Username:", username);
-        console.log("Password:", password);
-        console.log("Age:", age);
-        console.log("Gender:", gender);
     }
 }
 
